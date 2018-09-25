@@ -37,7 +37,7 @@ modelContent() {
 		(a) zero or more named “argument” vertices with no inbound edges, and
 		(b) exactly one “return” vertex, with a single inbound edge and no outbound edges.
 		`)
-		P(`The argument and return vertices of the circuit are called “bounadry” vertices,
+		P(`The argument and return vertices of the circuit are called “boundary” vertices,
 		and they correspond to the input values and the output value of the circuit.`)
 		P(`All non-boundary vertices, called “steps” or “elements” (of the circuit),
 		represent transformations of the values arriving on their inbound edges
